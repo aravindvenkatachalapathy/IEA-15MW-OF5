@@ -1,0 +1,35 @@
+# macOS metadata
+.DS_Store
+
+# Local solver/controller binaries
+openfast
+*.dylib
+*.so
+*.dll
+*.exe
+
+# OpenFAST-generated outputs and diagnostics
+*.out
+*.outb
+*.ech
+*.dbg
+*.log
+*.lin
+*.chkp
+*.chkp.*
+*.sum
+*.sum.yaml
+
+# Retain the generated wind-file metadata
+!IEA-15-240-RWT/Wind/*.sum
+
+# Visualization artifacts
+*.vtk
+*.vtp
+*.vtu
+*.pvd
+vtk/
+
+# Editor/temporary files
+*.bak
+*~
